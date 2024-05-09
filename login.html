@@ -1,0 +1,43 @@
+<html>
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet"href="login.css">
+</head>
+<body>
+    <center>
+    <h1>Register Page</h1>
+    <form action="/action_login.php" method="post" target="_blank">
+        <label>First Name:</label>
+        <input type="text" placeholder="Enter Your First Name"  name=" first name" required><br>
+        <label>Second Name:</label>
+        <input type="text" placeholder="Enter Your Second Name"  name="second name" required><br>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter Your Password" name="password" required><br>
+        <label>Confirm Password:</label>
+        <input type="password" placeholder="Enter the Confirm Password"  name="confirm password" required><br>
+        <label>Email: </label>
+        <input type="email" placeholder="Enter Your Email ID" name="email" required><br>
+        <label>Phone Number:</label>
+        <input type="text" placeholder="Enter Your Phone Number" name="contact no" required><br>
+        <label>Gender:</label>
+        <input type="radio"name="gender" value="M"required>Male
+        <input type="radio"name="gender" value="F" required>Female<br>
+        <label>Choose your Department</label>
+        <input type="checkbox"  value="CSE"required>CSE<br>
+        <input type="checkbox"  value="ECE"required>ECE<br>
+        <label>Choose file to upload</label>
+        <input type="file" id="file" name="file"required><br>
+        <label>Date of Birth</label>
+        <input type="date"placeholder="Enter Your Date of birth" name="dob" min="2024-05-20" max="2024-05-30"required><br>
+        <label>What month were you born in?</label>
+        <input type="month"name="month" value="month"required><br>
+        <label>select your range:</label>
+        <input type="range" name="range" min="0" max="100"required><br>
+        <label>Submit your button</label>
+        <button type="submit"value="Submit">Submit</button>
+    </form>
+    </center>
+</body>
+</html>
