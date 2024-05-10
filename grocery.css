@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+body
+{
+    width:100%;
+    min-height: 50vh;
+   background-image: url("grocery-delivery-app-banner (1).png");
+
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+nav li{
+    display:inline-block;
+    padding: 5px 5px;
+    font-weight: 500;
+    color: black;
+    
+
+}
+a{
+    text-decoration: none;
+}
+
