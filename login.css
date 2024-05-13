@@ -1,19 +1,29 @@
 
 body{
     
-    background-color: aqua;
+    background-image: url("pexels-ella-olsson-572949-1640777.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    background-size: cover;
 }
 label{
-        display:block;
+        display:list-item;
         padding: 15px 20px;
         font-weight: 400;
+        color:black;
+        font-size: large;
 }
 h1 {
     color:black;
     font-size:large;
   }
-  
- 
-  
-  
-  
+  button{
+
+  background-color:black;
+  color: white;
+  padding: 10px 10px;
+  cursor: pointer;
+  width: 10%;
+
+}

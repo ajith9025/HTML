@@ -1,23 +1,391 @@
 <!Doctype html>
-<headd>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"href="grocery.css">
     <title>GroceryApp</title>
-</headd>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <body>
     <header>
         <h1>GroceryApp</h1>
         <nav>
-            <li><a href="Home.html">Home</a></li>
-            <li>Services</li>
-            <li>Blogs</li>
-            <li>Product</li>
+            <li><a href="grocery.html" class="active">Home</a></li>
+            <li><a href="x.html">About us</a></li>
+            <li><a href="#category">Categories</a></li>
+            <li><a href="#popular-bundle pack">Our Packages</a></li>
+            <li><a href="#download-app">Our App</a></li>
             <li><a href="login.html">Login</a></li>
             <li><a href="signup.html">Sign up</a></li>
             <label for="search">Search</label>
             <input type="search" name="search"required>
-            </nav>
-    </header>    
+        </nav>
+    </header>
+    <section id="search-banner">
+        <div  class="search-banner-text">
+                <h1>Order Your Daily Groceries</h1>
+                <Strong>#Free Delivery</Strong>
+                <from action=""class="search-box">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="text" class="search-input" placeholder="search your daily groceries" name="search"required>
+                
+                </from>
+        </div>
+    </section>
+    <section id="category">
+        <div class="category-heading">
+            <h2>Category</h2>
+            <span>All</span>
+        </div>
+        <div class="category-container">
+            <a href="#" class="category-box">
+                <img src="vegetables.jpg" alt="vegetable">
+                <span>Vegetable</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="apple.png" alt="apple">
+                <span>Fruits</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="ice.png" alt="ice">
+                <span>Ice Creams</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="biscuits.jpg" alt="biscuits">
+                <span>Snacks</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="grocery.jpg" alt="grocery">
+                <span>Grocery list</span>
+            </a>
+        </div>   
+    </section>
+    <section id="popular-product">
+        <div class="product-heading">
+            <h3>Select Your Products</h3>
+            <span>All</span>
+        </div>
+      <div class="product-container">
+    
+        <div class="product-box">
+           <a href="product.html"><img alt="apple" src="apple1.jpg"></a>
+
+            <strong>Apple</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">Rs. 100</span>
+           
+            <a href="#" class="buy-btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Buy Now</a>
+
+            <a href="#" class="cart-btn">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>Add to Cart
+            </a>
+            
+            <a class="like-btn">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </a>
+        </div>
+        
+        <div class="product-box">
+            <img alt="chili" src="i2.jpg">
+            <strong>Ice</strong>
+            <span class="quantity">1 Qty</span>
+            <span class="price">Rs. 80</span>
+            <a href="#" class="buy-btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Buy Now</a>
+            <a href="#" class="cart-btn">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i> Add to Cart
+            </a>
+        
+            <a class="like-btn">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </a>
+        </div>
+    
+        <div class="product-box">
+            <img alt="apple" src="pexels-pixabay-46174.jpg">
+            <strong>Strawberry</strong>
+            <span class="quantity">1</span>
+            <span class="price">Rs. 50</span>
+            <a href="#" class="buy-btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Buy Now</a>
+            <a href="#" class="cart-btn">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i> Add to Cart
+            </a>
+              <a class="like-btn">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </a>
+        </div>
+        
+        <div class="product-box">
+            <img alt="apple" src="pototo.jpg">
+            <strong>Potato</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">Rs. 60</span>
+            <a href="#" class="buy-btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Buy Now</a>
+            <a href="#" class="cart-btn">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>Add to Cart
+            </a>
+        
+            <a class="like-btn">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="product-box">
+            <img alt="apple" src="908.jpg">
+            <strong>Oil</strong>
+            <span class="quantity">1L</span>
+            <span class="price">Rs. 50</span>
+            <a href="#" class="buy-btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Buy Now</a>
+            <a href="#" class="cart-btn">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i></i> Add to Cart
+            </a>
+        
+            <a class="like-btn">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </a>
+</div>
+        
+        <div class="product-box">
+            <img alt="apple" src="p.jpg">
+            <strong>Tomato</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">Rs. 80</span>
+            <a href="#" class="buy-btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Buy Now</a>
+            <a href="#" class="cart-btn">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i> Add to Cart
+            </a>
+            
+            <a class="like-btn">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </a>
+        </div>
+       
+    </div>
+</section>
+
+    <section id="popular-bundle pack">
+        <div class="product-heading">
+            <h3>Multiple Products</h3>
+        </div>
+        <div class="product-container">
+            <div class="product-box">
+                <img src="" alt="1"><br>
+                <strong>Egg,Rice </strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 100</span>
+    
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>Add to Cart
+                </a>
+                
+                <a class="like-btn">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                </a>
+            </div>
+            
+            <div class="product-box">
+                <img src="f.jpeg"alt="2"><br>
+                <strong>Vegetable Items</strong>
+                <span class="quantity">1 Qty</span>
+                <span class="price">Rs. 80</span>
+                
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i> Add to Cart
+                </a>
+            
+                <a class="like-btn">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                </a>
+            </div>
+        
+            <div class="product-box">
+                <img src="v.jpeg" alt="3"><br>
+                <strong>Fruits Items</strong>
+                <span class="quantity">1 Qty</span>
+                <span class="price">Rs. 50</span>
+                
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i> Add to Cart
+                </a>
+                  <a class="like-btn">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                </a>
+            </div>
+            
+            <div class="product-box">
+                <img src="13.jpg" alt="4"><br>
+                <strong>Snacks Items</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 60</span>
+        
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>Add to Cart
+                </a>
+            
+                <a class="like-btn">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                </a>
+            </div>
+    
+            <div class="product-box">
+                <img src="3rose.jpg" alt="5"><br>
+                <strong>Coffee Items </strong>
+                <span class="quantity">1L</span>
+                <span class="price">Rs. 50</span>
+            
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i></i> Add to Cart
+                </a>
+            
+                <a class="like-btn">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                </a>
+    </div>
+            
+            <div class="product-box">
+                <img src="789.jpg" alt="6"><br>
+                <strong>Masala Items</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 80</span>
+                
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i> Add to Cart
+                </a>
+                
+                <a class="like-btn">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                </a>
+            </div>
+            
+        </div>
+       
+        </section>
+    <section id="clients">
+        <div class="client-heading">
+            <h3>What our Client's Say</h3>
+        </div>
+        <div class="client-box-container">
+            <div class="cilent-box">
+                <div class="client-profile">
+                    <img src="7.jpg" alt="client">
+                    <div class="profile-text">
+                        <strong>Manikandan</strong>
+                        <span>CEO</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                   
+                </div>
+                <p>Dhalmart is a one-stop online grocery shopping platform that is dedicated to selling groceries, organic vegetables, and homecooked food to individuals with busy schedules. The platform was launched using the Growcer MV GoQuick package and was customized to provide convenience to buyers and delivery staff through its mobile apps. Additionally, third-party APIs were also integrated into the platform by our team at FATbit Technologies.</p>
+           </div>
+           <div class="cilent-box">
+            <div class="client-profile">
+                <img src="16.jpg" alt="client">
+                <div class="profile-text">
+                    <strong>HARI</strong>
+                    <span>CEO</span>
+                </div>
+            </div>
+            <div class="rating">
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+               
+            </div>
+            <p>Dhalmart is a one-stop online grocery shopping platform that is dedicated to selling groceries, organic vegetables, and homecooked food to individuals with busy schedules. The platform was launched using the Growcer MV GoQuick package and was customized to provide convenience to buyers and delivery staff through its mobile apps. Additionally, third-party APIs were also integrated into the platform by our team at FATbit Technologies.</p>
+       </div>
+       <div class="cilent-box">
+        <div class="client-profile">
+            <img src="17.jpg" alt="client">
+            <div class="profile-text">
+                <strong>KARTHIK RAJA</strong>
+                <span>CEO</span>
+            </div>
+        </div>
+        <div class="rating">
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+           
+        </div>
+        <p>Dhalmart is a one-stop online grocery shopping platform that is dedicated to selling groceries, organic vegetables, and homecooked food to individuals with busy schedules. The platform was launched using the Growcer MV GoQuick package and was customized to provide convenience to buyers and delivery staff through its mobile apps. Additionally, third-party APIs were also integrated into the platform by our team at FATbit Technologies.</p>
+   </div>
+         
+        </div>
+    </section>
+    <section id="partner">
+        <div class="partner-heading">
+            <h3>Our Trusted partner</h3>
+        </div>
+        <div class="logo-container">
+            <img src="logo1.png" alt="logo">
+            <img src="logo2.png" alt="logo">
+            <img src="logo3.png" alt="logo">
+        </div>
+
+    </section>
+      <section id="download-app">
+       <div class="app-img">
+        <a href="#"><img src="170.jpg"alt=""></a>
+       </div>
+       <div class="download-app-text">
+        <strong>Download App</strong>
+        <p>jakuuehhdddj,wertyusdfghj dfghjsk ertyusxjgt cvbnm ertyuio kjhgf zxc wjhdwddijsdm sxjkdnndjhehnnjhue siuddnndnny ekndjedehd.</p>
+       
+        <div class="download-btn">
+            <a href="#"><img src="app.png"alt=""></a>
+            <a href="#"><img src="googleplay.png"alt=""></a>
+          </div>  
+         </div>    
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#">GroceryApp</a>
+                <div class="footer-social">
+                    <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                </div>
+            </div>
+    
+            <div class="footer-links">
+                <strong>Products</strong>
+                <ul>
+                    <li><a href="#">Cloths</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">New</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <strong>Categories</strong>
+                <ul>
+                    <li><a href="#">Vegetable</a></li>
+                    <li><a href="#">Fruits</a></li>
+                    <li><a href="#">Ice Creams</a></li>
+                    <li><a href="#">Snacks</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <strong>Contact</strong>
+                <ul>
+                    <li><a href="#">Phone:+123456789</a></li>
+                    <li><a href="#">Email:Grocery@gmail.com</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
