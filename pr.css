@@ -1,0 +1,165 @@
+
+#popular-bundle-pack
+{
+    display: flex;
+    flex-direction: column;
+    max-width:  100%;;
+    margin: 100px auto;
+}
+
+.product-heading
+
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+
+ .product-heading h3
+ 
+ {
+    font-size: 1.56rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+ }
+ 
+
+ .product-container
+ {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 40px;
+
+ }
+ 
+ #popular-product{
+   margin: 80px auto;
+   }
+   .product-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 40px 0px;
+   }
+   .product-box img{
+   width: 80%;
+   height: 180px;
+   object-fit: contain;
+   object-position: center;
+   margin: auto;
+   }
+   .product-box{
+   width: 100%;
+   border: 1px solid #eeeeee;
+   border-radius: 20px;
+   background-color: #ffffff;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   cursor: pointer;
+   }
+   .product-box strong{
+   color: #202020;
+   font-size: 1.1rem;
+   letter-spacing: 1px;
+   font-weight: 600;
+   margin-top: 10px;
+   }
+   .product-box .quantity{
+   color: #949494;
+   font-size: 0.8rem;
+   font-weight: 500;
+   letter-spacing: 1px;
+   }
+   .product-box .price{
+   margin-top: 10px;
+   font-weight: 600;
+   font-size: 1.4rem;
+   color: #393939;
+   }
+   .product-box .cart-btn{
+   width:100%;
+   height: 40px;
+   background-color: #ecf7ee;
+   color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   transition: all ease 0.3s;
+   border-radius: 20px;
+   }
+   .product-box .cart-btn i{
+   margin-right: 10px;
+   }
+   .product-box .cart-btn:hover{
+   background-color:red;
+   color: #ffffff;
+   transition: all ease 0.3s;
+   }
+   .product-box .buy-btn{
+      width:100%;
+      height: 40px;
+      background-color: #ecf7ee;
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      transition: all ease 0.3s;
+      border-radius: 20px;
+      }
+      .product-box .buy-btn i{
+      margin-right: 10px;
+      }
+      .product-box .buy-btn:hover{
+      background-color:red;
+      color: #ffffff;
+      transition: all ease 0.3s;
+      }
+   .product-box .like-btn{
+   position: absolute;
+   right: 30px;
+   top: 20px;
+   color: #c9c9c9;
+   font-size: 1.3rem;
+   }
+   .like-btn:hover {
+   color: red;
+   cursor: pointer;
+   }
+   
+   
+ .popular-bundle-pack
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    max-width: 50px;
+    margin: 50px auto;
+    padding: 60px 0px 20px 0px;  
+    align-items: center;
+   
+ }
+ .product-heading
+ {
+   color: black;
+ }
+ .product-container
+ 
+ {
+    max-width: 100%;
+    width: 100%;
+    box-shadow: 10px rgba(0,0,0,0.03);
+    border-radius: 5px;
+    background-image: url("pexels-fecundap6-347926.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #f3f3f3;
+    padding: 10px 5px 10px 5px;  
+   
+ }

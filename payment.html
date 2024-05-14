@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Details</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.payment-details {
+  max-width: 600px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.card-type {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-number {
+  font-size: 18px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.cvv {
+  font-size: 16px;
+  color: #777;
+}
+
+.customer-address {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.customer-address h3 {
+  margin-top: 0;
+}
+
+.customer-address p {
+  margin: 5px;
+}
+
+
+</style>
+<body>
+  <form action="grocery.html" method="post">
+  <div class="payment-details">
+    <h2>Payment Details</h2>
+    <div class="card">
+      <div class="card-name">SBI</div>
+      <div class="card-number">**** **** **** 1234</div>
+      <div class="cvv">Exp:123</div>
+    </div>
+    <div class="customer-address">
+      <h3>Billing Address</h3>
+      <p>HARI D</p>
+      <p>123 Street Name</p>
+      <p>City, State, Zip</p>
+    </div>
+    <button onclick="myFunction()">reset</button>
+  </div>
+</form>
+</body>
+</html>

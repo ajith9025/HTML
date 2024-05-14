@@ -1,5 +1,5 @@
 body{
-    background-image:url("pexels-photo-733857.webp") ;
+    background-image:url("pexels-ella-olsson-572949-1640777.jpg") ;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 80vh;
@@ -15,6 +15,16 @@ label{
         color:black;
         font-size: large;
 }
+form{
+    box-shadow: 10px 0px 10px 0px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    border: 1px solid #f3f3f3;
+    padding: 10px;
+
+    
+
+}
+ 
 h1 {
     color:black;
     font-size:large;

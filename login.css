@@ -6,13 +6,29 @@ body{
     background-position: center;
     min-height: 80vh;
     background-size: cover;
+    max-width: 400px;
+    margin: 40px auto;
+    background-color:azure;
+    padding: 10px;
 }
+ 
 label{
-        display:list-item;
-        padding: 15px 20px;
-        font-weight: 400;
-        color:black;
-        font-size: large;
+   display:list-item;
+   padding: 15px 20px;
+   font-weight: 600;
+   color:white;
+   font-size: x-large
+}
+form{
+  box-shadow: 10px rgba(0,0,0,0.03);
+  border-radius: 5px;
+  border: 1px solid #f3f3f3;
+ padding: 20px 5px 20px 5px;  
+ background-image: url(pexels-fecundap6-347926.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ 
 }
 h1 {
     color:black;
@@ -24,6 +40,6 @@ h1 {
   color: white;
   padding: 10px 10px;
   cursor: pointer;
-  width: 10%;
+  width: 20%;
 
 }
